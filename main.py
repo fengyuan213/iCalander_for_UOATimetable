@@ -1,5 +1,5 @@
 # Define the raw string input
-raw_input = """
+raw_inputnew = """
 MATHS 3025 - Professional Practice III Workshop
 01 Mar - 05 Apr Friday 2:00 PM - 4:00 PM
 Engineering & Mathematics EM212, Teaching Room
@@ -66,6 +66,130 @@ Hughes 323, Teaching Room
 Hughes 323, Teaching Room
 31 May Friday 4:00 PM - 5:00 PM
 Hughes 323, Teaching Room
+"""
+
+raw_input="""
+COMP SCI 7081 - Computer Systems PG Lecture
+27 Feb - 02 Apr Tuesday 9:00 AM - 10:00 AM
+The Braggs G60, Bragg Lecture Theatre 
+29 Feb - 04 Apr Thursday 9:00 AM - 10:00 AM
+The Braggs G60, Bragg Lecture Theatre
+23 Apr - 04 Jun Tuesday 9:00 AM - 10:00 AM
+The Braggs G60, Bragg Lecture Theatre
+25 Apr - 06 Jun Thursday 9:00 AM - 10:00 AM
+The Braggs G60, Bragg Lecture Theatre
+
+COMP SCI 7081 - Computer Systems PG Lecture Workshop
+05 Mar - 02 Apr Tuesday 12:00 PM - 1:00 PM
+Ingkarni Wardli G22, CAT Suite
+23 Apr - 04 Jun Tuesday 12:00 PM - 1:00 PM
+Ingkarni Wardli G22, CAT Suite
+
+COMP SCI 7201 - Alg Data Structure Analysis PG Lecture
+26 Feb - 01 Apr Monday 4:00 PM - 5:00 PM
+Helen Mayo Nth 103N, Florey Lecture Theatre
+01 Mar - 05 Apr Friday 2:00 PM - 3:00 PM
+Helen Mayo Nth 103N, Florey Lecture Theatre
+22 Apr - 27 May Monday 4:00 PM - 5:00 PM
+Helen Mayo Nth 103N, Florey Lecture Theatre
+26 Apr - 31 May Friday 2:00 PM - 3:00 PM
+Helen Mayo Nth 103N, Florey Lecture Theatre
+
+COMP SCI 7201 - Alg Data Structure Analysis PG Workshop
+07 Mar Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+21 Mar Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+04 Apr Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+02 May Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+16 May Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+30 May Thursday 1:00 PM - 2:00 PM
+Hartley 122a, Teaching Room
+
+COMP SCI 7306 - Mining Big Data PG Lecture
+26 Feb - 01 Apr Monday 6:00 PM - 8:00 PM
+Horace Lamb 1022, Horace Lamb Lecture Theatre
+22 Apr - 27 May Monday 6:00 PM - 8:00 PM
+Horace Lamb 1022, Horace Lamb Lecture Theatre
+
+COMP SCI 7306 - Mining Big Data PG Workshop
+29 Feb - 04 Apr Thursday 6:00 PM - 7:00 PM
+Petroleum Engineering G04, Teaching Room
+25 Apr - 06 Jun Thursday 6:00 PM - 7:00 PM
+Petroleum Engineering G04, Teaching Room
+"""
+
+raw_input_update = """
+CORPFIN 1002 - Business Finance Lecture
+24 Jul - 11 Sep Wednesday 10:00 AM - 12:00 PM
+The Braggs G60, Bragg Lecture Theatre
+
+02 Oct - 30 Oct Wednesday 10:00 AM - 12:00 PM
+The Braggs G60, Bragg Lecture Theatre
+
+CORPFIN 1002 - Business Finance Tutorial
+01 Aug - 12 Sep Thursday 4:00 PM - 5:00 PM
+Ligertwood 112, Teaching Room
+03 Oct - 31 Oct Thursday 4:00 PM - 5:00 PM
+Ligertwood 112, Teaching Room
+
+COMP SCI 3313 - Software Eng & Proj (DS&N) Lecture
+22 Jul - 09 Sep Monday 4:00 PM - 5:00 PM
+Scott Theatre 001, Scott Theatre
+25 Jul - 12 Sep Thursday 3:00 PM - 4:00 PM
+The Braggs G60, Bragg Lecture Theatre
+26 Jul - 13 Sep Friday 4:00 PM - 5:00 PM
+The Braggs G60, Bragg Lecture Theatre
+30 Sep - 21 Oct Monday 4:00 PM - 5:00 PM
+Scott Theatre 001, Scott Theatre
+03 Oct - 24 Oct Thursday 3:00 PM - 4:00 PM
+The Braggs G60, Bragg Lecture Theatre
+04 Oct - 25 Oct Friday 4:00 PM - 5:00 PM
+The Braggs G60, Bragg Lecture Theatre
+
+COMP SCI 3313 - Software Eng & Proj (DS&N) Project
+05 Aug - 09 Sep Monday 9:00 AM - 10:00 AM
+MyUni OL, Online Class
+30 Sep - 21 Oct Monday 9:00 AM - 10:00 AM
+MyUni OL, Online Class
+
+COMP SCI 3004 - Operating Systems UG Lecture
+26 Jul - 13 Sep Friday 1:00 PM - 3:00 PM
+The Braggs G60, Bragg Lecture Theatre
+04 Oct - 25 Oct Friday 1:00 PM - 3:00 PM
+The Braggs G60, Bragg Lecture Theatre
+
+COMP SCI 3004 - Operating Systems UG Workshop
+09 Aug Friday 3:00 PM - 5:00 PM
+Engineering & Mathematics, EM105
+23 Aug Friday 3:00 PM - 5:00 PM
+Engineering & Mathematics, EM105
+06 Sep Friday 3:00 PM - 5:00 PM
+Engineering & Mathematics, EM105
+04 Oct Friday 3:00 PM - 5:00 PM
+Engineering & Mathematics, EM105
+18 Oct Friday 3:00 PM - 5:00 PM
+Engineering & Mathematics, EM105
+
+COMP SCI 3012 - Distributed Systems UG Workshop
+23 Jul - 10 Sep Tuesday 3:00 PM - 5:00 PM
+Horace Lamb 1022, Horace Lamb Lecture Theatre
+01 Oct - 22 Oct Tuesday 3:00 PM - 5:00 PM
+Horace Lamb 1022, Horace Lamb Lecture Theatre
+
+
+COMP SCI 3012 - Distributed Systems UG Practical
+29 Jul Monday 12:00 PM - 2:00 PM
+Engineering & Mathematics EMG13, Computer Suite
+12 Aug Monday 12:00 PM - 2:00 PM
+Engineering & Mathematics EMG13, Computer Suite
+09 Sep Monday 12:00 PM - 2:00 PM
+Engineering & Mathematics EMG13, Computer Suite
+14 Oct Monday 12:00 PM - 2:00 PM
+Engineering & Mathematics EMG13, Computer Suite
 """
 import re
 import pytz
@@ -173,11 +297,11 @@ def parse_and_generate_ics(raw_input):
 
 
 # Generate the calendar
-calendar = parse_and_generate_ics(raw_input)
+calendar = parse_and_generate_ics(raw_input_update)
 
 # Save the calendar to an .ics file
 ics_file_path = "class_timetable.ics"
 
 with open(ics_file_path, 'wb') as f:
     f.write(calendar)
-ics_file_path
+
