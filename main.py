@@ -180,7 +180,6 @@ Horace Lamb 1022, Horace Lamb Lecture Theatre
 01 Oct - 22 Oct Tuesday 3:00 PM - 5:00 PM
 Horace Lamb 1022, Horace Lamb Lecture Theatre
 
-
 COMP SCI 3012 - Distributed Systems UG Practical
 29 Jul Monday 12:00 PM - 2:00 PM
 Engineering & Mathematics EMG13, Computer Suite
