@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Timetable to iCal",
+    "version": "1.0.0",
+    "description": "Extract adelaide university timetable and convert to iCal format",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "src/popup/index.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "downloads"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}
