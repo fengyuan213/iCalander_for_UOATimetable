@@ -15,9 +15,11 @@ A Chrome extension that converts University of Adelaide timetables into iCal for
 
 ## Installation
 
-1. Visit the [Chrome Web Store](YOUR_CHROME_STORE_LINK)
-2. Click "Add to Chrome"
-3. Accept the required permissions
+~~1. Visit the [Chrome Web Store](YOUR_CHROME_STORE_LINK)~~  
+~~2. Click "Add to Chrome"~~  
+~~3. Accept the required permissions~~
+
+**Note:** The extension is currently under development and not yet available in the Chrome Web Store. Please follow the [Development](#development) section to install it locally.
 
 ## How to Use
 
