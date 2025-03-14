@@ -2,7 +2,7 @@
 import ical, { ICalCalendar } from 'ical-generator';
 import { parse } from 'date-fns';
 
-// Define the structured data types (matching the ones from background.ts)
+// Define the structured data types
 interface Session {
     dateRange: string;
     dayOfWeek: string;
@@ -27,13 +27,16 @@ interface TimetableData {
 
 /**
  * Generate iCal data from structured timetable data
+ * @param timetableData The structured timetable data
+ * @param timezone Optional timezone (defaults to Australia/Adelaide)
+ * @returns iCal formatted string
  */
-export function parseAndGenerateIcs(timetableData: TimetableData): string {
-    // Create a new calendar
+export function parseAndGenerateIcs(timetableData: TimetableData, timezone?: string): string {
+    // Create a new calendar with the specified timezone or default to Adelaide
     const calendar: ICalCalendar = ical({
         prodId: { company: 'Timetable to iCal Extension', product: 'UOA Timetable' },
         name: 'University Timetable',
-        timezone: 'Australia/Adelaide' // Changed from Europe/London to Australia/Adelaide
+        timezone: timezone || 'Australia/Adelaide'
     });
 
     // Make sure timetableData and its properties are defined
@@ -217,4 +220,4 @@ function createDateTime(date: Date, timeStr: string): Date {
 
     dateTime.setHours(hours, minutes, 0, 0);
     return dateTime;
-} 
+}

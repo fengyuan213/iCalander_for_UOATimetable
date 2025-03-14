@@ -27,7 +27,8 @@ interface TimetableData {
 // Define the expected message type with TimetableData
 interface TimetableRequest {
     action: string;
-    data: TimetableData;  // Only accept TimetableData now
+    data: string;  // JSON stringified TimetableData
+    timezone?: string; // Optional timezone parameter
 }
 
 // Add type definitions for Chrome API
@@ -45,9 +46,11 @@ chrome.runtime.onMessage.addListener((
 ) => {
     if (request.action === 'processTimetable') {
         try {
-            // Process the timetable data and generate iCal
-            // The parseAndGenerateIcs function now only accepts TimetableData
-            const icalData = parseAndGenerateIcs(request.data);
+            // Parse the JSON string back to an object
+            const timetableData: TimetableData = JSON.parse(request.data);
+
+            // Process the timetable data and generate iCal with specified timezone
+            const icalData = parseAndGenerateIcs(timetableData, request.timezone);
 
             // Create a downloadable blob directly using chrome.downloads.download
             const blob = new Blob([icalData], { type: 'text/calendar' });
@@ -84,6 +87,7 @@ chrome.runtime.onMessage.addListener((
             if (error instanceof Error) {
                 errorMessage = error.message;
             }
+            console.error('Error processing timetable:', error);
             sendResponse({ error: errorMessage });
         }
     }

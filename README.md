@@ -10,7 +10,8 @@ A Chrome extension that converts University of Adelaide timetables into iCal for
 - 🔄 One-click timetable extraction from MyAdelaide
 - 📅 Generates standard iCal (.ics) files
 - 🎓 Supports all UoA course types (Lectures, Tutorials, Workshops, etc.)
-- 🌐 Works with Adelaide timezone
+- 🌐 Customizable timezone settings for international students
+- ✅ Course and session selection to customize your calendar
 - 🔒 Privacy-focused: All processing happens locally
 
 ## Installation
@@ -28,8 +29,11 @@ A Chrome extension that converts University of Adelaide timetables into iCal for
 3. Click CLASSLIST at the top right corner
 4. Click the extension icon in your browser
 5. Click "Extract Timetable"
-6. Click "Generate iCal" to download your calendar file
-7. Import the .ics file into your preferred calendar application
+6. Customize your settings:
+   - Select your preferred timezone
+   - Choose which courses, class types, and sessions to include
+7. Click "Generate iCal" to download your calendar file
+8. Import the .ics file into your preferred calendar application
 
 ## Privacy
 
